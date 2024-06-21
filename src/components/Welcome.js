@@ -11,7 +11,6 @@ function Welcome() {
                     <p className='font-normal text-2xl'>Lorem ipsum dolor amet consectetur. Quis cursus egestas eget pellentesque.</p>
                     <button className='bg-yellow-500 text-white rounded-xl py-3 px-5 mt-5'>
                         <p>Contact Me </p>
-                        <p>Hello </p>
                     </button>
                 </div>
                 <div className=''>
