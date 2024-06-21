@@ -12,6 +12,7 @@ function Welcome() {
                     <button className='bg-yellow-500 text-white rounded-xl py-3 px-5 mt-5'>
                         
                        
+                        <p>Contact Me </p>
                     </button>
                 </div>
                 <div className=''>
