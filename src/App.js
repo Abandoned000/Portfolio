@@ -8,6 +8,8 @@ import Prefereances from './components/Prefereances';
 import Creative  from './components/Creative';
 import News from './components/News';
 import Contact from './components/Contact';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 function App() {
   return (
     <div>
@@ -17,8 +19,8 @@ function App() {
       <Achievements/>
       <Prefereances/>
       <Creative/>
-      {/* <News/>
-      <Contact/> */}
+      <News/>
+      {/* <Contact/> */}
     </div>
   );
 }
