@@ -1,7 +1,7 @@
 import React from 'react'
 import P1 from '../assets/School.jpg'
 import P2 from '../assets/Friends.jpg'
-import Bg from '../assets/CBackground.png'
+
 const Creative = () => {
     return (
         <div className='px-5' >

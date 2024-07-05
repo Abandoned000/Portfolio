@@ -1,5 +1,5 @@
 import React from 'react'
-import News1 from '../assets/News1.png'
+
 import Bg from '../assets/NBackground.png'
 import Slider from "react-slick";
 import Val from '../assets/val.jpg'
