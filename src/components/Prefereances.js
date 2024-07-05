@@ -7,7 +7,7 @@ import Bg from '../assets/PBackground.png'
 
 const Prefereances = () => {
     return (
-        <div className='flex  py-32  bg-no-repeat bg-cover flex-col-reverse md:flex-row gap-6' style={{ backgroundImage: `url(${Bg})` }}>
+        <div className='flex  py-32  bg-no-repeat bg-cover flex-col-reverse md:flex-row  justify-between' style={{ backgroundImage: `url(${Bg})` }}>
             <div className='flex gap-8 flex-col md:flex-row md:px-36 px-5'>
                 <div className=' space-y-8 '>
                     <img className='w-full h-96 md:h-60 md:w-[264px] aspect-square rounded-3xl' alt='img'src={Tennis} />

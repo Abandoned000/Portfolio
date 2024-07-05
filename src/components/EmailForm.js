@@ -34,7 +34,7 @@ const EmailForm = () => {
 
  
   return (
-    <form onSubmit={handleSubmit} className='emailForm flex flex-col'>
+    <form onSubmit={handleSubmit} className='emailForm'>
       <input
         type="text"
         placeholder="Your Name"
