@@ -10,12 +10,12 @@ const Prefereances = () => {
         <div className='flex  py-32  bg-no-repeat bg-cover flex-col-reverse md:flex-row gap-6' style={{ backgroundImage: `url(${Bg})` }}>
             <div className='flex gap-8 flex-col md:flex-row md:px-36 px-5'>
                 <div className=' space-y-8 '>
-                    <img className='w-full h-96 md:h-60 md:w-[264px] aspect-square rounded-3xl' src={Tennis} />
-                    <img className='w-full h-96 md:h-60 md:w-[264px] aspect-square rounded-3xl' src={Travelling} />
+                    <img className='w-full h-96 md:h-60 md:w-[264px] aspect-square rounded-3xl' alt='img'src={Tennis} />
+                    <img className='w-full h-96 md:h-60 md:w-[264px] aspect-square rounded-3xl' alt='img'src={Travelling} />
                 </div>
                 <div className=' space-y-8'>
-                    <img className='w-full h-96 md:h-60 md:w-[264px] aspect-square rounded-3xl' src={Basketball} />
-                    <img className='w-full h-96 md:h-60 md:w-[264px] aspect-square rounded-3xl' src={Workout} />
+                    <img className='w-full h-96 md:h-60 md:w-[264px] aspect-square rounded-3xl' alt='img'src={Basketball} />
+                    <img className='w-full h-96 md:h-60 md:w-[264px] aspect-square rounded-3xl' alt='img'src={Workout} />
                 </div>
             </div>
             <div className=' space-y-6 md:w-[528px] md:text-left text-center md:px-0 px-5'>

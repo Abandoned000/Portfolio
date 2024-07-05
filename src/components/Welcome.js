@@ -14,7 +14,7 @@ function Welcome() {
                     </button>
                 </div>
                 <div className='overflow-hidden rounded-full p-2 bg-purple-200 shadow-sm'>
-                    <img className='h-96 rounded-full'src={Picture1} />
+                    <img className='h-96 rounded-full' alt='img' src={Picture1} />
                 </div>
             </div>
 

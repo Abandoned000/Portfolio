@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Header from './components/Header';
 import Welcome from './components/Welcome';
@@ -10,7 +10,7 @@ import News from './components/News';
 import Contact from './components/Contact';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import EmailForm from './components/EmailForm';
+
 
 function App() {
   return (

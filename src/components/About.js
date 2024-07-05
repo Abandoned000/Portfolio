@@ -8,7 +8,7 @@ const About = () => {
     return (
         <div className='flex justify-between px-36 items-center gap-24 bg-no-repeat bg-cover py-16 md:pt-24' style={{ backgroundImage: `url(${bg})` }} >
             <div className='w-1/3 hidden md:block'>
-                <img className='w-[480px]' src={Picture2} />
+                <img className='w-[480px]' alt='' src={Picture2} />
             </div>
             <div className='space-y-12 md:w-2/3 text-center md:text-left w-full'>
                 <div className='space-y-4 '>
