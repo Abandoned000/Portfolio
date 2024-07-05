@@ -10,6 +10,8 @@ import News from './components/News';
 import Contact from './components/Contact';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import EmailForm from './components/EmailForm';
+
 function App() {
   return (
     <div>
@@ -20,8 +22,11 @@ function App() {
       <Prefereances/>
       <Creative/>
       <News/>
-      {/* <Contact/> */}
+      <Contact/>
     </div>
+    // <div>
+    //   <EmailForm/>
+    // </div>
   );
 }
 

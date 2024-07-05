@@ -1,17 +1,18 @@
 import React from 'react'
 import News1 from '../assets/News1.png'
-import News2 from '../assets/News2.png'
-import News3 from '../assets/News3.png'
 import Bg from '../assets/NBackground.png'
 import Slider from "react-slick";
-
+import Val from '../assets/val.jpg'
+import Lol from '../assets/lol.jpg'
+import Gh from '../assets/Gith.png'
+import YT from '../assets/YT.jpg'
 const NewCard = (props) => {
     return (
         <div className='flex-1 space-y-2 p-6 bg-white rounded-3xl m-4 md:max-w-96 md:mx-auto min-h-[448px]'>
-            <img src={props.img} className='w-full' />
+            <a href={props.link}><img src={props.img} className='w-full rounded-xl' /></a>
             <div className='flex justify-between'>
                 <p className='font-normal text-base text-purple-500'> {props.name}</p>
-                <p className=' font-normal text-base'> Mar 8,2023</p>
+                <p className=' font-normal text-base'> {props.date}</p>
             </div>
             <p className='font-bold text-2xl'>{props.title}</p>
             <p className='font-normal text-lg'> {props.content}</p>
@@ -58,15 +59,15 @@ const News = () => {
     return (
         <div className='bg-no-repeat bg-cover' style={{ backgroundImage: `url(${Bg})` }}>
             <div className='text-center pt-32'>
-                <p className='font-semibold text-2xl text-purple-500'>Latest News</p>
-                <p className='font-extrabold text-6xl'>Block & Articles</p>
+                <p className='font-semibold text-2xl text-purple-500'>Latest Activities</p>
+                <p className='font-extrabold text-6xl'>Recently visited</p>
             </div>
             <div className='py-24 md:px-12'>
                 <Slider {...settings}>
-                    <NewCard img={News1} name="By Jerry" title="Why am I programming?" content="I was forced to"/>
-                    <NewCard img={News2} name="By John" title=" Why should we read books?" content="To get smarter"/>
-                    <NewCard img={News3} name="By Pluto" title=" Why should we discuss in class?" content="Not to be weird"/>
-                    <NewCard img={News1} name="By Khoa" title=" Hello?" content="Hi"/>
+                    <NewCard img={Val} name="By Riot" date='02 June 2020' title="Why am I choosing this game" content="Valorant actually train my accuracy and help me to relax in free time" link='https://playvalorant.com/vi-vn/'/>
+                    <NewCard img={Lol} name="By Riot" date='27 October 2009' title=" Why am I choosing this game?" content="This game improve my mindset and train my typing speed." link='https://www.leagueoflegends.com/en-us/'/>
+                    <NewCard img={Gh} name="By Microsoft" date='April 2008' title=" Why did I visit Github?" content="I recently leaning programming so I choose Github to store my projects" link='https://github.com/'/>
+                    <NewCard img={YT} name="By Google" date='15 December 2005' title=" Why am I visit Youtube this much?" content="Youtube is the best partner who helping me in my academic work and relaxing" link='https://www.youtube.com/'/>
                 </Slider>
             </div>
         </div>

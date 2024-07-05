@@ -1,7 +1,7 @@
 import React from 'react'
-import Picture2 from '../assets/img2.png'
+import Picture2 from '../assets/cat2.png'
 import Facebook from '../assets/Fb.png'
-import Link from '../assets/Linkein.png'
+import Github from '../assets/Github.png'
 import IG from '../assets/IG.png'
 import bg from '../assets/Aboutbg.png'
 const About = () => {
@@ -13,18 +13,18 @@ const About = () => {
             <div className='space-y-12 md:w-2/3 text-center md:text-left w-full'>
                 <div className='space-y-4 '>
                     <p className='font-extrabold text-5xl text-purple-700'> About <span className='text-yellow-400'>Me</span></p>
-                    <p className='font-normal text-xl min-w-96 '> I was born and raised up in a southern city of Vietnam my whole childhood. After graduating from middle school, I moved to the US for further education. Right now, I am a high school student at Villanova Preparatory School in Ojai, California.</p>
+                    <p className='font-normal text-xl min-w-96 '> I was born and raised up in a southern city of Vietnam my whole childhood. After graduating from middle school, I moved to the US for further education. Currently, I'm focusing on Computer Science major at Cambridge Arts, Technology & Science Academy in Boston, Massachusetts.</p>
                 </div>
                 <div className='text-xl space-y-4'>
-                    <p> Date of Birth <span className='font-bold'> 18th July, 2006</span></p>
-                    <p> Phone <span className='font-bold'> (+84) 345622456</span></p>
-                    <p> Email <span className='font-bold'> emaildemo@gmail.com</span></p>
-                    <p> Address <span className='font-bold'> Hanoi, Vietnam</span></p>
+                    <p> Date of Birth <span className='font-bold'> 12th June, 2008</span></p>
+                    <p> Phone <span className='font-bold'> (+84) 03391206</span></p>
+                    <p> Email <span className='font-bold'> lhanhkhoa1206@gmail.com </span></p>
+                    <p> Address <span className='font-bold'> Ho Chi Minh, Vietnam</span></p>
                 </div>
                 <div className='flex gap-8 justify-center md:justify-start'>
-                    <img src= {Facebook}/>
-                    <img src= {Link}/>
-                    <img src= {IG}/>
+                    <a href="https://www.facebook.com/profile.php?id=100075867833213&locale=vi_VN"><img className='h-8' src= {Facebook}/> </a>
+                    <a href="https://github.com/Abandoned000"><img className='h-8' src= {Github}/> </a>
+                    <a href="https://www.instagram.com/jlhakhoa08/"><img className='h-8' src= {IG}/></a>
                 </div>
             </div>
         </div>
