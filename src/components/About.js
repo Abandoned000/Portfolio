@@ -8,7 +8,7 @@ const About = () => {
     return (
         <div className='flex justify-between px-36 items-center gap-24 bg-no-repeat bg-cover py-16 md:pt-24' style={{ backgroundImage: `url(${bg})` }} >
             <div className='w-1/3 hidden md:block'>
-                <img className='w-[480px]' alt='' src={Picture2} />
+                <img className='w-[480px]' alt='img' src={Picture2} />
             </div>
             <div className='space-y-12 md:w-2/3 text-center md:text-left w-full'>
                 <div className='space-y-4 '>
@@ -22,9 +22,9 @@ const About = () => {
                     <p> Address <span className='font-bold'> Ho Chi Minh, Vietnam</span></p>
                 </div>
                 <div className='flex gap-8 justify-center md:justify-start'>
-                    <a href="https://www.facebook.com/profile.php?id=100075867833213&locale=vi_VN"><img className='h-8' src= {Facebook}/> </a>
-                    <a href="https://github.com/Abandoned000"><img className='h-8' src= {Github}/> </a>
-                    <a href="https://www.instagram.com/jlhakhoa08/"><img className='h-8' src= {IG}/></a>
+                    <a href="https://www.facebook.com/profile.php?id=100075867833213&locale=vi_VN"> <img className='h-8' alt='img'src= {Facebook}/> </a>
+                    <a href="https://github.com/Abandoned000"><img alt='img' className='h-8' src= {Github}/> </a>
+                    <a href="https://www.instagram.com/jlhakhoa08/"><img alt='img' className='h-8' src= {IG}/></a>
                 </div>
             </div>
         </div>

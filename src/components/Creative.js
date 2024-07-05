@@ -12,7 +12,7 @@ const Creative = () => {
             <div className='flex text-center mt-12 justify-around flex-col md:flex-row '>
                 <div className='space-y-4 w-full md:w-1/2'>
                     <div className='justify-center flex'>
-                        <img className='h-[600px] w-96' src={P1} />
+                        <img className='h-[600px] w-96' alt='img' src={P1} />
                     </div>
                     <p className='font-normal text-xl'> 20/11/2023</p>
                     <p className='font-bold text-3xl'> The Captain’s Hat</p>
@@ -20,7 +20,7 @@ const Creative = () => {
                 </div>
                 <div className='space-y-4 w-full md:w-1/2 md:mt-0 mt-10'>
                     <div className='justify-center flex'>
-                        <img className='h-[600px] w-96 ' src={P2} />
+                        <img className='h-[600px] w-96 ' alt='img' src={P2} />
                     </div>
                     <p className='font-normal text-xl'> 19/03/2023</p>
                     <p className='font-bold text-3xl'> Supportive Group</p>

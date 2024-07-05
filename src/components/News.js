@@ -9,7 +9,7 @@ import YT from '../assets/YT.jpg'
 const NewCard = (props) => {
     return (
         <div className='flex-1 space-y-2 p-6 bg-white rounded-3xl m-4 md:max-w-96 md:mx-auto min-h-[448px]'>
-            <a href={props.link}><img src={props.img} className='w-full rounded-xl' /></a>
+            <a href={props.link}><img alt='img' src={props.img} className='w-full rounded-xl' /></a>
             <div className='flex justify-between'>
                 <p className='font-normal text-base text-purple-500'> {props.name}</p>
                 <p className=' font-normal text-base'> {props.date}</p>
